@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "nyt-imperial,georgia," times new roman ",times,serif";
+color: rgb(63, 53, 53);
+}
+img {
+  width: 1000px;
+}
+.main-center p,
+#youtube-section p {
+  width: 550px;
+  font-size: 22px;
+}
+a {
+  text-decoration: none;
+  color: rgb(28, 109, 214);
+}
+h1{
+  font-size: 40px;
+  font-style: italic;
+  font-family: nyt-cheltenham, georgia,'times new roman',times,serif;
+  border-bottom: 1px solid gray;
+  padding: 5px;
+  margin-bottom: 25px;
+}
+nav {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  background-color: #fff;
+  padding: 5px;
+  border-bottom: 1px solid gray;
+}
+svg {
+  width: 180px;
+  height: 50px;
+}
+nav span {
+  font-weight: bold;
+  color: #000;
+  font-size: 12px;
+}
+nav p {
+  font-size: 15px;
+  color: gray;
+}
+
+.icons i {
+  padding: 10px;
+}
+#main-container {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 80px auto;
+  position: relative;
+}
+.main-center {
+  width: 60%;
+  font-size: 22px;
+  margin-left: 20%;
+}
+#the-heading {
+  width: 80%;
+  margin: 50px auto;
+  /* text-align: center; */
+}
+
+#main-header img {
+  width: 1100px;
+}
+.header-image-details p{
+  padding: 10px 0;
+  font-size: 20px;
+  color: rgb(75, 65, 65);
+}
+.header-image-details p span{
+  font-size: 15px;
+  color: gray;
+}
+.signup-section{
+padding: 10px;
+margin: 10px;
+  display: flex;
+}
+.signup-section button{
+  width: 150px;
+  height: 30px;
+  padding: 5px;
+  margin-top: 4px;
+  font-weight: bold;
+}
+.signup-section p{
+  font-size: 15px;
+  font-style: italic;
+}
+.signup-section p span{
+  font-style: normal;
+  color: #000;
+  font-weight: bold;
+}
+/* aside  */
+.editors {
+  margin-top: -500px;
+  width: 230px;
+  float: right;
+  padding: 10px;
+}
+.editors img {
+  width: 100px;
+  height: 90px;
+  padding: 5px;
+}
+.editors p {
+  width: 100px;
+  height: 90px;
+  float: right;
+  padding: 5px;
+}
+aside {
+  float: left;
+}
+
+
+.links-container {
+  margin: auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+}
+.links-columns {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.links-columns a {
+  text-decoration: none;
+  color: gray;
+}
+.footer-links {
+  display: flex;
+}
+
+/* text on image */
+#article-container {
+  position: relative;
+  height: 700px;
+  
+}
+#article-container img {
+  height: 700px;
+  position: relative;
+  margin-top: -130px;
+}
+.imageP {
+  position: relative;
+  top: 0;
+  width: 220px;
+  height: 150px;
+  font-size: 18px;
+  line-height: 1;
+  color: rgb(97, 92, 92);
+}
+.imageP span {
+  color: black;
+  font-weight: bold;
+}
+.imageP-top {
+  position: relative;
+  top: 150px;
+  margin-left: 10px;
+  display: flex;
+  justify-content: space-around;
+  z-index: 1;
+}
+.imageP-bottom {
+  position: relative;
+
+  bottom: 230px;
+  margin-left: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.inflaction {
+  margin-top: 20px;
+}
+#youtube-section {
+  margin: 20px 18%;
+}
+#youtube-section img {
+  width: 700px;
+  margin-left: -40px;
+  padding: 10px;
+}
+#youtube-section iframe {
+  width: 500px;
+  height: 400px;
+  margin: auto;
+  padding: 10px;
+}
+#coments {
+  position: relative;
+}
+#coments p {
+  margin-top: 50px;
+  font-size: 15px;
+  line-height: 1;
+  width: 100%;
+  color: gray;
+}
+#coments button {
+  margin-top: 10px;
+  padding: 10px;
+  width: 300px;
+}
+.right-side {
+  position: absolute;
+  right: 10px;
+  top: 45px;
+}
+footer {
+  border-top: 1px solid rgb(99, 92, 92);
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  padding: 5px;
+}
+footer a {
+  padding: 5px;
+  text-decoration: none;
+  color: rgb(66, 61, 61);
+  line-height: 0.5;
+}
+footer a:hover{
+  border-bottom: 1px solid #000;
+}
+.footer-links {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
